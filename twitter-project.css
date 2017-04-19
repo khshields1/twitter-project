@@ -1,0 +1,27 @@
+#container {
+  width: 600px;
+  height: 600px;
+  background-color: lightyellow;
+  font-family: Arial;
+}
+
+#mainpicture {
+background-color: gray;
+height: 50px;
+width: 50px;
+margin: 10px;
+}
+
+#name {
+background-color: gray;
+height: 50px;
+width: 150px;
+margin: 10px;
+}
+
+div.tweets {
+  background-color: lightblue;
+  height: 100px;
+  width: 150px;
+  margin: 10px;
+}
