@@ -1,27 +1,71 @@
 #container {
-  width: 600px;
-  height: 600px;
+  width: 1200px;
+  height: 1500px;
   background-color: lightyellow;
   font-family: Arial;
+  margin: auto;
+}
+
+#ads {
+  width: 400px;
 }
 
 #mainpicture {
+position: relative;
 background-color: gray;
-height: 50px;
-width: 50px;
+height: 150px;
+width: 150px;
 margin: 10px;
+left: 50px;
+top: 50px;
+}
+
+.ad {
+  background-color: lightgreen;
+  height: 300px;
+  width: 200px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+}
+
+#twitter-feed {
+  width: 400px;
 }
 
 #name {
+position: relative;
 background-color: gray;
-height: 50px;
-width: 150px;
+height: 60px;
+width: 400px;
 margin: 10px;
+left: 300px;
+bottom: 100px;
 }
 
-div.tweets {
+.tweet1 {
   background-color: lightblue;
-  height: 100px;
-  width: 150px;
+  height: 200px;
+  width: 350px;
   margin: 10px;
+  float: left;
+}
+
+#trending-topics {
+  width: 400px;
+}
+
+.trending {
+  background-color: pink;
+  height: 300px;
+  width: 200px;
+  margin: 10px;
+  float: left;
+}
+
+.following {
+  background-color: pink;
+  height: 300px;
+  width: 200px;
+  margin: 10px;
+  float: left;
 }
