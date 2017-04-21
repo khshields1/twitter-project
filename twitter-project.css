@@ -1,71 +1,77 @@
-#container {
-  width: 1200px;
-  height: 1500px;
+.columns-container {
   background-color: lightyellow;
+  display: flex;
+  flex-direction: row;
   font-family: Arial;
-  margin: auto;
+  margin: 0 auto;
+  width: 1200px;
 }
 
-#ads {
-  width: 400px;
+.column {
+  border: 1px solid black;
+}
+
+.tweets {
+  background-color: lightblue;
+  height: 200px;
+  margin: 10px;
+}
+
+#column1 {
+  flex: 20;
+}
+
+#column2 {
+  flex: 60;
+}
+
+#column3 {
+  flex: 20;
 }
 
 #mainpicture {
-position: relative;
-background-color: gray;
-height: 150px;
-width: 150px;
-margin: 10px;
-left: 50px;
-top: 50px;
+  background-color: gray;
+  font-size: 200%;
+  height: 150px;
+  margin: 50px;
+  padding-top: 50px;
+  text-align: center;
+  top: 60px;
 }
 
-.ad {
+#ad1 {
   background-color: lightgreen;
-  height: 300px;
-  width: 200px;
-  margin-bottom: 50px;
-  margin-left: 50px;
+  height: 400px;
+  margin: 10px;
 }
 
-#twitter-feed {
-  width: 400px;
+#ad2 {
+  background-color: lightgreen;
+  height: 400px;
+  margin: 10px;
+  margin-top: 70px;
 }
 
 #name {
-position: relative;
-background-color: gray;
-height: 60px;
-width: 400px;
-margin: 10px;
-left: 300px;
-bottom: 100px;
+  background-color: gray;
+  font-size: 200%;
+  height: 50px;
+  margin: 50px;
+  padding-top: 30px;
+  text-align: center;
+  top: 60px;
 }
 
-.tweet1 {
-  background-color: lightblue;
-  height: 200px;
-  width: 350px;
-  margin: 10px;
-  float: left;
-}
-
-#trending-topics {
-  width: 400px;
-}
-
-.trending {
+#trending {
   background-color: pink;
-  height: 300px;
-  width: 200px;
+  height: 400px;
   margin: 10px;
-  float: left;
+  margin-top: 300px;
 }
 
-.following {
+#following {
   background-color: pink;
-  height: 300px;
-  width: 200px;
+  height: 400px;
   margin: 10px;
-  float: left;
+  margin-top: 80px;
 }
