@@ -13,8 +13,9 @@
 
 .tweets {
   background-color: lightblue;
-  height: 200px;
-  margin: 10px;
+  font-size: 20px;
+  height: 100px;
+  margin: 20px;
 }
 
 #column1 {
@@ -29,14 +30,11 @@
   flex: 20;
 }
 
-#mainpicture {
-  background-color: gray;
-  font-size: 200%;
-  height: 150px;
-  margin: 50px;
-  padding-top: 50px;
-  text-align: center;
-  top: 60px;
+iframe {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 40px;
+  margin-bottom: 50px;
 }
 
 #ad1 {
@@ -55,11 +53,46 @@
 #name {
   background-color: gray;
   font-size: 200%;
-  height: 50px;
+  font-weight: bold;
+  height: 100px;
   margin: 50px;
-  padding-top: 30px;
-  text-align: center;
+  padding-left: 50px;
+  padding-top: 10px;
   top: 60px;
+}
+
+#new-tweet {
+height: 160px;
+width: 95%;
+background-color: lightblue;
+margin: 0 auto;
+margin-bottom: 80px;
+}
+
+h2 {
+margin-left: 10px;
+}
+
+#text-box {
+height: 50px;
+width: 95%;
+margin: 0 auto;
+background-color: white;
+}
+
+#send-button {
+border-style: solid;
+border-color: black;
+font-size: 30px;
+margin-left: 450px;
+margin-top: 10px;
+height: 40px;
+width: 150px;
+border-radius: 15px;
+}
+
+#send-button:hover {
+background-color: red;
 }
 
 #trending {
