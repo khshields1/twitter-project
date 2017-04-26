@@ -14,8 +14,16 @@
 .tweets {
   background-color: lightblue;
   font-size: 20px;
-  height: 100px;
   margin: 20px;
+}
+
+.follow {
+  display: flex;
+  flex-direction: row;
+}
+
+.trend-topic {
+  padding: 20px 0;
 }
 
 #column1 {
@@ -31,21 +39,19 @@
 }
 
 iframe {
+  margin-bottom: 50px;
   margin-left: 20px;
   margin-right: 20px;
   margin-top: 40px;
-  margin-bottom: 50px;
 }
 
 #ad1 {
   background-color: lightgreen;
-  height: 400px;
   margin: 10px;
 }
 
 #ad2 {
   background-color: lightgreen;
-  height: 400px;
   margin: 10px;
   margin-top: 70px;
 }
@@ -54,7 +60,6 @@ iframe {
   background-color: gray;
   font-size: 200%;
   font-weight: bold;
-  height: 100px;
   margin: 50px;
   padding-left: 50px;
   padding-top: 10px;
@@ -62,49 +67,50 @@ iframe {
 }
 
 #new-tweet {
-height: 160px;
-width: 95%;
-background-color: lightblue;
-margin: 0 auto;
-margin-bottom: 80px;
+  background-color: lightblue;
+  margin: 0 auto;
+  width: 95%;
 }
 
 h2 {
-margin-left: 10px;
+  margin-left: 10px;
 }
 
 #text-box {
-height: 50px;
-width: 95%;
-margin: 0 auto;
-background-color: white;
+  background-color: white;
+  height: 50px;
+  margin: 0 auto;
+  width: 95%;
 }
 
 #send-button {
-border-style: solid;
-border-color: black;
-font-size: 30px;
-margin-left: 450px;
-margin-top: 10px;
-height: 40px;
-width: 150px;
-border-radius: 15px;
+  border-color: black;
+  border-radius: 15px;
+  border-style: solid;
+  font-size: 30px;
+  margin-bottom: 10px;
+  margin-left: 450px;
+  margin-top: 10px;
+  width: 150px;
 }
 
 #send-button:hover {
-background-color: red;
+  background-color: red;
 }
 
 #trending {
   background-color: pink;
-  height: 400px;
-  margin: 10px;
+  padding: 20px;
   margin-top: 300px;
 }
 
 #following {
   background-color: pink;
-  height: 400px;
-  margin: 10px;
+  padding: 20px;
   margin-top: 80px;
+}
+
+#following img {
+  display: block;
+  width: 100px;
 }
