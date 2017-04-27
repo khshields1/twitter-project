@@ -1,5 +1,4 @@
 .columns-container {
-  background-color: lightyellow;
   display: flex;
   flex-direction: row;
   font-family: Arial;
@@ -7,12 +6,9 @@
   width: 1200px;
 }
 
-.column {
-  border: 1px solid black;
-}
-
 .tweets {
-  background-color: lightblue;
+  background-color: white;
+  border: solid #0099ff 2px;
   font-size: 20px;
   margin: 20px;
 }
@@ -20,6 +16,18 @@
 .follow {
   display: flex;
   flex-direction: row;
+  padding-top: 10px;
+}
+
+.follow-pic {
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+}
+
+.follow-text {
+  display: inline-block;
+  padding-top: 10px;
 }
 
 .trend-topic {
@@ -27,14 +35,17 @@
 }
 
 #column1 {
+  background-color: #0099ff;
   flex: 20;
 }
 
 #column2 {
+  background-color: white;
   flex: 60;
 }
 
 #column3 {
+  background-color: #0099ff;
   flex: 20;
 }
 
@@ -56,40 +67,52 @@ iframe {
   margin-top: 70px;
 }
 
+#column2-top {
+background-color: #0099ff;
+height: 40px;
+}
+
+#column2-divider {
+background-color: #0099ff;
+}
+
 #name {
-  background-color: gray;
+  background-color: white;
   font-size: 200%;
   font-weight: bold;
-  margin: 50px;
-  padding-left: 50px;
-  padding-top: 10px;
-  top: 60px;
+  margin: 0 auto;
+  width: 90%;
 }
 
 #new-tweet {
-  background-color: lightblue;
+  background-color: #0099ff;
   margin: 0 auto;
   width: 95%;
 }
 
-h2 {
+h1 {
+  margin-left: 10px;
+}
+
+h3 {
   margin-left: 10px;
 }
 
 #text-box {
   background-color: white;
+  border: solid #0099ff 2px;
   height: 50px;
   margin: 0 auto;
   width: 95%;
 }
 
-#send-button {
+#tweet-button {
   border-color: black;
   border-radius: 15px;
   border-style: solid;
-  font-size: 30px;
+  font-size: 25px;
   margin-bottom: 10px;
-  margin-left: 450px;
+  margin-left: 400px;
   margin-top: 10px;
   width: 150px;
 }
@@ -98,19 +121,32 @@ h2 {
   background-color: red;
 }
 
+#follow-button {
+  background-color: white;
+  border-radius: 15px;
+  border-style: solid;
+  font-size: 15px;
+  height: 40px;
+  margin-left: 30px;
+  width: 100px;
+}
+
 #trending {
-  background-color: pink;
+  background-color: #0099ff;
+  color: white;
   padding: 20px;
-  margin-top: 300px;
+  margin-top: 100px;
 }
 
 #following {
-  background-color: pink;
+  background-color: #0099ff;
+  color: white;
   padding: 20px;
   margin-top: 80px;
 }
 
-#following img {
+img {
   display: block;
+  height: 100px;
   width: 100px;
 }
